@@ -152,22 +152,30 @@ body {
     /*Seletor de id*/
     background-color: white;
     width: 400px;
+    /*Largura*/
     /*tamanho da tabela dentro da caixa col1*/
     text-align: center;
     /*Alihar texto*/
-    padding-top: 10px; 
+    padding-top: 10px;
+    /*espasamento para dentro / Topo*/
     padding-bottom: 38px;
+    /*Em Baixo*/
     padding-left: 38px;
+    /*Esquerda*/
     padding-right: 38px;
+    /*Direita*/
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0.5); /*Sombra*/
 
 }
 
 .titulo {
     /*Seletor de classe*/
     font-size: 32px;
-    margin-top: 14px; /*Margem de cima*/
+    margin-top: 14px;
+    /*espasamento para fora / Topo*/
     margin-bottom: 12px;
     font-weight: bold;
+    /*Peso da fonte*/
 }
 
 .texto {
@@ -178,4 +186,63 @@ body {
 .pedido {
     margin-top: 32px;
     text-align: left;
+}
+
+.rotulo {
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+    /*caixa*/
+    margin-bottom: 8px;
+}
+
+.campo-texto {
+    width: 100%;
+    font-size: 16px;
+    color: #434343;
+    padding: 7px 13px;
+    margin-bottom: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.botao-reservar {
+    width: 100%;
+    background-color: #ffc107;
+    color: white;
+    line-height: 150%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    /*Tamanho do espaço de texto*/
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    /*Deixar maiusculo ou minusculo*/
+    font-size: 16px;
+    margin-top: 16px;
+}
+#col2{
+    width: 700px;
+    margin-left: 39px;
+
+}
+.oferta{
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+}
+.destaque{
+    color: #445ee5
+}
+.texto-oferta{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.tudo{
+    display: flex;
+    align-items: center; /*vertical*/
+    justify-content: center;/*Horizontal*/
+    height: 100vh;
+    
 }

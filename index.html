@@ -7,29 +7,30 @@
     <title>Locadora</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
+
 <body>
-    <main>
+    <main class="tudo">
         <div id="col1">
             <img src="Imagens/truck.png" alt="Ícone de caminhão">
-            <h2 class="texto">Encontre o Veículo certo para Você!</h2>
-            <p>Preencha as informações abaixo</p>
+            <h2 class="titulo">Encontre o Veículo certo para Você!</h2>
+            <p class="texto">Preencha as informações abaixo</p>
             <form class="pedido">
-                <label>Nome</label><br>
-                <input type="text"><br>
-                <Label>E-mail</Label><br>
-                <input type="text"><br>
-                <label>Selecione o Tipo de Veículo</label><br>
-            <select>
-                <option>Básico</option>
-                <option>Família</option>
-                <option>Luxo</option>
-            </select><br>
-            <button>FAZER MINHA RESERVA</button>
+                <label class="rotulo">Nome</label>
+                <input type="text" class="campo-texto">
+                <label class="rotulo">E-mail</Label>
+                <input type="text" class="campo-texto">
+                <label class="rotulo">Selecione o Tipo de Veículo</label>
+                <select class="campo-texto">
+                    <option>Básico</option>
+                    <option>Família</option>
+                    <option>Luxo</option>
+                </select class="campo-texto">
+                <button class="botao-reservar">FAZER MINHA RESERVA</button>
             </form>
         </div>
         <div id="col2">
-            <h1>VOCÊ PODE ALUGAR ESSE VEÍCULO POR R$ <em>99</em> /DIA</h1>
-            <p>Válido para todo território nacional</p>
+            <h1 class="oferta">VOCÊ PODE ALUGAR ESSE VEÍCULO POR R$ <strong class="destaque">99</strong> /DIA</h1>
+            <p class="texto-oferta">Válido para todo território nacional</p>
             <img src="Imagens/renault-kwid.png" alt="Renault kwid">
         </div>
     </main>
