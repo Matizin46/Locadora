@@ -141,7 +141,7 @@ table {
 /**/
 body {
     /*Seletor tag*/
-    background-color: #ffc107;
+    background-color: #3B6790;
     /*Muda a cor de fundo*/
 
     font-family: Arial, Helvetica, sans-serif;
@@ -209,7 +209,7 @@ body {
 
 .botao-reservar {
     width: 100%;
-    background-color: #ffc107;
+    background-color: #23486A;
     color: white;
     line-height: 150%;
     padding-top: 6px;
@@ -233,7 +233,7 @@ body {
     color: white;
 }
 .destaque{
-    color: #445ee5
+    color: #EFB036
 }
 .texto-oferta{
     font-size: 18px;
